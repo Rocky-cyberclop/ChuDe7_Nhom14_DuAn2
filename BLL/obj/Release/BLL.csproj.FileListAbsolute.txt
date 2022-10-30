@@ -1,0 +1,14 @@
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\BLL\bin\Release\BLL.dll
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\BLL\bin\Release\BLL.pdb
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\BLL\bin\Release\DAL.dll
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\BLL\bin\Release\DAL.pdb
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\BLL\obj\Release\BLL.dll
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\BLL\obj\Release\BLL.pdb
+D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\BLL\bin\Release\BLL.dll
+D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\BLL\bin\Release\BLL.pdb
+D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\BLL\bin\Release\DAL.dll
+D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\BLL\bin\Release\DAL.pdb
+D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\BLL\obj\Release\BLL.dll
+D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\BLL\obj\Release\BLL.pdb

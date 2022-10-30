@@ -1,0 +1,8 @@
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\ChuDeX_Nhom14_DuAn2\bin\Debug\ChuDeX_Nhom14_DuAn2.exe.config
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\ChuDeX_Nhom14_DuAn2\bin\Debug\ChuDeX_Nhom14_DuAn2.exe
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\ChuDeX_Nhom14_DuAn2\bin\Debug\ChuDeX_Nhom14_DuAn2.pdb
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\ChuDeX_Nhom14_DuAn2\obj\Debug\ChuDe1_Nhom14_DuAn2.csproj.GenerateResource.Cache
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\ChuDeX_Nhom14_DuAn2\obj\Debug\ChuDeX_Nhom14_DuAn2.exe
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\ChuDeX_Nhom14_DuAn2\obj\Debug\ChuDeX_Nhom14_DuAn2.pdb
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\ChuDeX_Nhom14_DuAn2\obj\Debug\ChuDe1_Nhom14_DuAn2.frmMain.resources
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\ChuDeX_Nhom14_DuAn2\obj\Debug\ChuDe1_Nhom14_DuAn2.Properties.Resources.resources

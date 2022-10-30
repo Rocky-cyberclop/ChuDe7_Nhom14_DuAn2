@@ -1,0 +1,14 @@
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\BLL\bin\Debug\BLL.dll
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\BLL\bin\Debug\BLL.pdb
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\BLL\bin\Debug\DAL.dll
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\BLL\bin\Debug\DAL.pdb
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\BLL\obj\Debug\BLL.dll
+D:\For store\DotNet\VSProject\ChuDeX_Nhom14_DuAn2\BLL\obj\Debug\BLL.pdb
+D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\BLL\bin\Debug\BLL.dll
+D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\BLL\bin\Debug\BLL.pdb
+D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\BLL\bin\Debug\DAL.dll
+D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\BLL\bin\Debug\DAL.pdb
+D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\BLL\obj\Debug\BLL.dll
+D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\BLL\obj\Debug\BLL.pdb

@@ -1,0 +1,8 @@
+D:\For store\DotNet\VSProject\DAL\DAL\bin\Release\DAL.dll
+D:\For store\DotNet\VSProject\DAL\DAL\bin\Release\DAL.pdb
+D:\For store\DotNet\VSProject\DAL\DAL\obj\Release\DAL.dll
+D:\For store\DotNet\VSProject\DAL\DAL\obj\Release\DAL.pdb
+D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\DAL\DAL\bin\Release\DAL.dll
+D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\DAL\DAL\bin\Release\DAL.pdb
+D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\DAL\DAL\obj\Release\DAL.dll
+D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\DAL\DAL\obj\Release\DAL.pdb
