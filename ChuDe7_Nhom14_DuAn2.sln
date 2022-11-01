@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL\DAL.csproj", "{F9BF0F06-9253-4D60-8BDC-9FFA32980661}"
 EndProject
-Project("{E729F059-12D4-455F-A2A4-FDA8DD25E08A}") = "Setup", "..\..\..\..\InstallShield 2022 Projects\Setup.isproj", "{5E21372F-4F75-4C50-995C-876A604F27ED}"
+Project("{E729F059-12D4-455F-A2A4-FDA8DD25E08A}") = "Setup", "Setup.isproj", "{5322BBFE-DE83-4573-8E95-0057C02705AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,10 +28,10 @@ Global
 		{F9BF0F06-9253-4D60-8BDC-9FFA32980661}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9BF0F06-9253-4D60-8BDC-9FFA32980661}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9BF0F06-9253-4D60-8BDC-9FFA32980661}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5E21372F-4F75-4C50-995C-876A604F27ED}.Debug|Any CPU.ActiveCfg = Debug
-		{5E21372F-4F75-4C50-995C-876A604F27ED}.Debug|Any CPU.Build.0 = Debug
-		{5E21372F-4F75-4C50-995C-876A604F27ED}.Release|Any CPU.ActiveCfg = Release
-		{5E21372F-4F75-4C50-995C-876A604F27ED}.Release|Any CPU.Build.0 = Release
+		{5322BBFE-DE83-4573-8E95-0057C02705AE}.Debug|Any CPU.ActiveCfg = Debug
+		{5322BBFE-DE83-4573-8E95-0057C02705AE}.Debug|Any CPU.Build.0 = Debug
+		{5322BBFE-DE83-4573-8E95-0057C02705AE}.Release|Any CPU.ActiveCfg = Release
+		{5322BBFE-DE83-4573-8E95-0057C02705AE}.Release|Any CPU.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
