@@ -40,7 +40,6 @@ D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\GUI\bin\Debug\BLL.dll
 D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\GUI\bin\Debug\DAL.dll
 D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\GUI\bin\Debug\BLL.pdb
 D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\GUI\bin\Debug\DAL.pdb
-D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
 D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\GUI\obj\Debug\GUI.frmMember.resources
 D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\GUI\obj\Debug\GUI.frmChangePass.resources
 D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\GUI\obj\Debug\GUI.frmLogin.resources
@@ -51,3 +50,4 @@ D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\GUI\obj\Debug\GUI.Properties.R
 D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
 D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\GUI\obj\Debug\GUI.exe
 D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\GUI\obj\Debug\GUI.pdb
+D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache

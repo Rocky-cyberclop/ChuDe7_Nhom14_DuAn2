@@ -5,6 +5,5 @@ D:\For store\DotNet\VSProject\DAL\DAL\obj\Debug\DAL.dll
 D:\For store\DotNet\VSProject\DAL\DAL\obj\Debug\DAL.pdb
 D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\DAL\DAL\bin\Debug\DAL.dll
 D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\DAL\DAL\bin\Debug\DAL.pdb
-D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\DAL\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\DAL\DAL\obj\Debug\DAL.dll
 D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\DAL\DAL\obj\Debug\DAL.pdb
