@@ -40,6 +40,13 @@ namespace GUI
                 fMain.mnuManager.Enabled = true;
                 fMain.mnuChangePass.Enabled = true;
                 fMain.mnuLogout.Enabled = true;
+                if (ObjectLoginValue.strPrivilege == "Admin")
+                {
+                    fMain.mnuSocial.Enabled = true;
+                }
+                else {
+                    fMain.mnuSocial.Enabled = false;
+                }
                 MessageBox.Show("Đăng nhập thành công!");
                 MessageBox.Show(ObjectLoginValue.strName + " " + ObjectLoginValue.strPrivilege);
                 this.Close();

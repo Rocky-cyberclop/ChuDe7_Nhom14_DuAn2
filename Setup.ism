@@ -343,18 +343,22 @@
 		<row><td>AllOtherFiles1</td><td>{A45BCFA1-2FDE-4B4E-991F-C74870BB79FB}</td><td>TN207</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>BLL.dll</td><td>{B94BA929-0A64-4402-B5D5-8FA8B53B8525}</td><td>INSTALLDIR</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>BLL.dll1</td><td>{EFCE5784-2433-472B-9C08-6FAE16286D92}</td><td>INSTALLDIR</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>BLL.dll2</td><td>{2B43EDE3-BCDC-4CC5-AEBF-C29DBC52F834}</td><td>TN207</td><td>8</td><td/><td>bll.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>BLL.dll2</td><td>{2B43EDE3-BCDC-4CC5-AEBF-C29DBC52F834}</td><td>TN207</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>BLL.dll3</td><td>{991C554C-6F01-4FC7-BF94-9C6D08F9E434}</td><td>TN207</td><td>8</td><td/><td>bll.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>DAL.dll</td><td>{7B35A937-0520-432A-BE78-B2B579D40DCD}</td><td>INSTALLDIR</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>DAL.dll1</td><td>{8EC29BFF-0633-4D88-9369-E2F791A4D07B}</td><td>INSTALLDIR</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>DAL.dll2</td><td>{85307324-EF4A-40D1-B2D0-958070EE53EB}</td><td>TN207</td><td>8</td><td/><td>dal.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>DAL.dll2</td><td>{85307324-EF4A-40D1-B2D0-958070EE53EB}</td><td>TN207</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>DAL.dll3</td><td>{95D73564-FE72-4722-A22F-CF13D43574AB}</td><td>TN207</td><td>8</td><td/><td>dal.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>GUI.exe</td><td>{DBE4E103-9E3D-400C-9DC6-4704EF03ADCF}</td><td>INSTALLDIR</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>GUI.exe1</td><td>{811265C9-9103-4FD3-BFE2-8F720A7DA7F5}</td><td>INSTALLDIR</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>GUI.exe2</td><td>{9119F2E2-4836-460A-9CA4-2ED5E7211B99}</td><td>INSTALLDIR</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>GUI.exe3</td><td>{050936D2-030B-4FEA-97DF-3AFE19F04911}</td><td>TN207</td><td>8</td><td/><td>gui.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>GUI.exe3</td><td>{050936D2-030B-4FEA-97DF-3AFE19F04911}</td><td>TN207</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>GUI.exe4</td><td>{65C0D43F-6A46-43DC-A2D6-E612AF49495B}</td><td>TN207</td><td>8</td><td/><td>gui.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>GUI.vshost.exe</td><td>{00F7F4DE-BEB3-4309-B190-F9E4C87206F8}</td><td>INSTALLDIR</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>GUI.vshost.exe1</td><td>{C8DCA80A-BE55-40CA-A11D-A574B146004D}</td><td>INSTALLDIR</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>GUI.vshost.exe2</td><td>{B49607BC-69B8-424D-8A35-75F3668A98C8}</td><td>INSTALLDIR</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>GUI.vshost.exe3</td><td>{36EA732C-B60B-438D-932C-6D30417CD86B}</td><td>TN207</td><td>8</td><td/><td>gui.vshost.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>GUI.vshost.exe3</td><td>{36EA732C-B60B-438D-932C-6D30417CD86B}</td><td>TN207</td><td>8</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>GUI.vshost.exe4</td><td>{C6BCF1B0-0E6C-48D2-8036-882E909F143E}</td><td>TN207</td><td>8</td><td/><td>gui.vshost.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -1032,6 +1036,10 @@
 		<row><td>INSTALLDIR</td><td>GUI.vshost.exe</td></row>
 		<row><td>INSTALLDIR</td><td>GUI.vshost.exe1</td></row>
 		<row><td>INSTALLDIR</td><td>GUI.vshost.exe2</td></row>
+		<row><td>TN207</td><td>BLL.dll2</td></row>
+		<row><td>TN207</td><td>DAL.dll2</td></row>
+		<row><td>TN207</td><td>GUI.exe3</td></row>
+		<row><td>TN207</td><td>GUI.vshost.exe3</td></row>
 	</table>
 
 	<table name="CustomAction">
@@ -1850,17 +1858,21 @@
 		<row><td>QL_HoGiaDinh_Files</td><td>BLL.dll</td></row>
 		<row><td>QL_HoGiaDinh_Files</td><td>BLL.dll1</td></row>
 		<row><td>QL_HoGiaDinh_Files</td><td>BLL.dll2</td></row>
+		<row><td>QL_HoGiaDinh_Files</td><td>BLL.dll3</td></row>
 		<row><td>QL_HoGiaDinh_Files</td><td>DAL.dll</td></row>
 		<row><td>QL_HoGiaDinh_Files</td><td>DAL.dll1</td></row>
 		<row><td>QL_HoGiaDinh_Files</td><td>DAL.dll2</td></row>
+		<row><td>QL_HoGiaDinh_Files</td><td>DAL.dll3</td></row>
 		<row><td>QL_HoGiaDinh_Files</td><td>GUI.exe</td></row>
 		<row><td>QL_HoGiaDinh_Files</td><td>GUI.exe1</td></row>
 		<row><td>QL_HoGiaDinh_Files</td><td>GUI.exe2</td></row>
 		<row><td>QL_HoGiaDinh_Files</td><td>GUI.exe3</td></row>
+		<row><td>QL_HoGiaDinh_Files</td><td>GUI.exe4</td></row>
 		<row><td>QL_HoGiaDinh_Files</td><td>GUI.vshost.exe</td></row>
 		<row><td>QL_HoGiaDinh_Files</td><td>GUI.vshost.exe1</td></row>
 		<row><td>QL_HoGiaDinh_Files</td><td>GUI.vshost.exe2</td></row>
 		<row><td>QL_HoGiaDinh_Files</td><td>GUI.vshost.exe3</td></row>
+		<row><td>QL_HoGiaDinh_Files</td><td>GUI.vshost.exe4</td></row>
 	</table>
 
 	<table name="File">
@@ -1875,16 +1887,15 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>bll.dll</td><td>BLL.dll2</td><td>BLL.dll</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;VSSolutionFolder&gt;\GUI\bin\Debug\BLL.dll</td><td>1</td><td/></row>
-		<row><td>bll.pdb</td><td>AllOtherFiles1</td><td>BLL.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;VSSolutionFolder&gt;\GUI\bin\Debug\BLL.pdb</td><td>1</td><td/></row>
-		<row><td>dal.dll</td><td>DAL.dll2</td><td>DAL.dll</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;VSSolutionFolder&gt;\GUI\bin\Debug\DAL.dll</td><td>1</td><td/></row>
-		<row><td>dal.pdb</td><td>AllOtherFiles1</td><td>DAL.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;VSSolutionFolder&gt;\GUI\bin\Debug\DAL.pdb</td><td>1</td><td/></row>
-		<row><td>gui.exe</td><td>GUI.exe3</td><td>GUI.exe</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;VSSolutionFolder&gt;\GUI\bin\Debug\GUI.exe</td><td>1</td><td/></row>
-		<row><td>gui.exe.config</td><td>AllOtherFiles1</td><td>GUIEXE~1.CON|GUI.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;VSSolutionFolder&gt;\GUI\bin\Debug\GUI.exe.config</td><td>1</td><td/></row>
-		<row><td>gui.pdb</td><td>AllOtherFiles1</td><td>GUI.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;VSSolutionFolder&gt;\GUI\bin\Debug\GUI.pdb</td><td>1</td><td/></row>
-		<row><td>gui.vshost.exe</td><td>GUI.vshost.exe3</td><td>GUIVSH~1.EXE|GUI.vshost.exe</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;VSSolutionFolder&gt;\GUI\bin\Debug\GUI.vshost.exe</td><td>1</td><td/></row>
-		<row><td>gui.vshost.exe.config</td><td>AllOtherFiles1</td><td>GUIVSH~1.CON|GUI.vshost.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;VSSolutionFolder&gt;\GUI\bin\Debug\GUI.vshost.exe.config</td><td>1</td><td/></row>
-		<row><td>gui.vshost.exe.manifest</td><td>AllOtherFiles1</td><td>GUIVSH~1.MAN|GUI.vshost.exe.manifest</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;VSSolutionFolder&gt;\GUI\bin\Debug\GUI.vshost.exe.manifest</td><td>1</td><td/></row>
+		<row><td>bll.dll</td><td>BLL.dll3</td><td>BLL.dll</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\GUI\bin\Debug\BLL.dll</td><td>1</td><td/></row>
+		<row><td>bll.pdb</td><td>AllOtherFiles1</td><td>BLL.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\GUI\bin\Debug\BLL.pdb</td><td>1</td><td/></row>
+		<row><td>dal.dll</td><td>DAL.dll3</td><td>DAL.dll</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\GUI\bin\Debug\DAL.dll</td><td>1</td><td/></row>
+		<row><td>dal.pdb</td><td>AllOtherFiles1</td><td>DAL.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\GUI\bin\Debug\DAL.pdb</td><td>1</td><td/></row>
+		<row><td>gui.exe</td><td>GUI.exe4</td><td>GUI.exe</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\GUI\bin\Debug\GUI.exe</td><td>1</td><td/></row>
+		<row><td>gui.exe.config</td><td>AllOtherFiles1</td><td>GUIEXE~1.CON|GUI.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\GUI\bin\Debug\GUI.exe.config</td><td>1</td><td/></row>
+		<row><td>gui.pdb</td><td>AllOtherFiles1</td><td>GUI.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\GUI\bin\Debug\GUI.pdb</td><td>1</td><td/></row>
+		<row><td>gui.vshost.exe</td><td>GUI.vshost.exe4</td><td>GUIVSH~1.EXE|GUI.vshost.exe</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\GUI\bin\Debug\GUI.vshost.exe</td><td>1</td><td/></row>
+		<row><td>gui.vshost.exe.config</td><td>AllOtherFiles1</td><td>GUIVSH~1.CON|GUI.vshost.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;ISProjectFolder&gt;\GUI\bin\Debug\GUI.vshost.exe.config</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -1901,6 +1912,7 @@
 		<col key="yes" def="s72">Tag</col>
 		<col def="S255">Data</col>
 		<row><td>GUI.exe3</td><td/></row>
+		<row><td>GUI.exe4</td><td/></row>
 		<row><td>PROJECT_ASSISTANT_DEFAULT_FEATURE</td><td>QL_HoGiaDinh_Files</td></row>
 		<row><td>PROJECT_ASSISTANT_FEATURES</td><td>NonSelectable</td></row>
 	</table>
@@ -2034,17 +2046,21 @@
 		<row><td>BLL.dll</td><td/><td/><td>_62DFE341_15D4_4CC8_B206_12BCFDFD1A62_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>BLL.dll1</td><td/><td/><td>_5D366314_7658_4673_9B55_2CF2B41E53BE_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>BLL.dll2</td><td/><td/><td>_FAD55C25_EAA9_425B_AB4B_C6BE1AF2AB38_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>BLL.dll3</td><td/><td/><td>_0E6E9B08_EDA5_4508_8F41_ECD9B044674E_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>DAL.dll</td><td/><td/><td>_E3D2DE95_2DA0_4589_999B_AFCFCF4FFFB8_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>DAL.dll1</td><td/><td/><td>_A0E0EDEC_F677_48C6_AC0B_226868FDD4CC_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>DAL.dll2</td><td/><td/><td>_05BB286B_51E8_49AC_A25C_BF554C67A221_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>DAL.dll3</td><td/><td/><td>_44640AEB_B6C1_4684_97D7_408B9DDF483A_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>GUI.exe</td><td/><td/><td>_0DD4957E_CB66_4B84_A4B1_FFEFBD6EBE03_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>GUI.exe1</td><td/><td/><td>_076E4BBF_9548_4DF9_BD5E_033CE6CB1EE0_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>GUI.exe2</td><td/><td/><td>_39A9B5C3_0E61_4212_A7BE_D0509A3D339E_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>GUI.exe3</td><td/><td/><td>_440846EE_03FA_4C48_8A4B_72A3F010B9C0_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>GUI.exe4</td><td/><td/><td>_55EB2941_60A1_4EF3_A53F_AA739C4D4A79_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>GUI.vshost.exe</td><td/><td/><td>_C8C49CE4_FECA_4C90_9ABD_C18EFA25B62D_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>GUI.vshost.exe1</td><td/><td/><td>_F31B54BC_CCF6_4ACA_9348_D256482E16C6_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>GUI.vshost.exe2</td><td/><td/><td>_6D9134AE_643B_4E97_A960_383250A2686F_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>GUI.vshost.exe3</td><td/><td/><td>_59C972D3_469E_4F1A_8524_29D59612ADCC_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>GUI.vshost.exe4</td><td/><td/><td>_17ACFE73_ED18_4C3D_A67D_B8F021BAEACA_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -2679,7 +2695,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>TN207</td><td>0</td><td/><td>229261130</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>TN207</td><td>0</td><td/><td>363493875</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>-743830063</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_ACROBAT5FOLDER</td><td>1033</td><td>   Adobe Acrobat 5 needs to be installed for this installation to continue.</td><td>0</td><td/><td>-743830063</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_ADOBEREADER10FOLDER</td><td>1033</td><td>Adobe Reader 10 needs to be installed for this installation to continue.</td><td>0</td><td/><td>-743830063</td></row>
@@ -3533,6 +3549,7 @@
 		<row><td>IDS_SETUPEXE_EXPIRE_MSG</td><td>1033</td><td>This setup works until %s. The setup will now exit.</td><td>0</td><td/><td>-743830063</td></row>
 		<row><td>IDS_SETUPEXE_LAUNCH_COND_E</td><td>1033</td><td>This setup was built with an evaluation version of InstallShield and can only be launched from setup.exe.</td><td>0</td><td/><td>-743830063</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME1</td><td>1033</td><td>LAUNCH~1.EXE|Launch GUI.exe</td><td>0</td><td/><td>229301289</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME10</td><td>1033</td><td>LAUNCH~1.EXE|Launch GUI.vshost.exe</td><td>0</td><td/><td>363471379</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME2</td><td>1033</td><td>LAUNCH~1.EXE|Launch GUI.vshost.exe</td><td>0</td><td/><td>229301289</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME3</td><td>1033</td><td>LAUNCH~1.EXE|Launch GUI.exe</td><td>0</td><td/><td>229260393</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME4</td><td>1033</td><td>LAUNCH~1.EXE|Launch GUI.vshost.exe</td><td>0</td><td/><td>229268585</td></row>
@@ -3540,6 +3557,7 @@
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME6</td><td>1033</td><td>LAUNCH~1.EXE|Launch GUI.vshost.exe</td><td>0</td><td/><td>229297257</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME7</td><td>1033</td><td>QL_HoGiaDinh.exe</td><td>0</td><td/><td>229269898</td></row>
 		<row><td>IDS_SHORTCUT_DISPLAY_NAME8</td><td>1033</td><td>LAUNCH~1.EXE|Launch GUI.vshost.exe</td><td>0</td><td/><td>229263434</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME9</td><td>1033</td><td>QL_HoGiaDinh.exe</td><td>0</td><td/><td>363465523</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO</td><td>1033</td><td>From the list of servers below, select the database server you would like to target.</td><td>0</td><td/><td>-743830063</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_DB</td><td>1033</td><td>From the list of catalog names below, select the database catalog you would like to target.</td><td>0</td><td/><td>-743830063</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_TEMPLATE</td><td>1033</td><td>[IS_SQLBROWSE_INTRO]</td><td>0</td><td/><td>-743830063</td></row>
@@ -3832,8 +3850,10 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>-743830063</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>-743830063</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>-743830063</td></row>
-		<row><td>ID_STRING1</td><td>1033</td><td>http://www.TN207.com</td><td>0</td><td/><td>229261130</td></row>
+		<row><td>ID_STRING1</td><td>1033</td><td>http://www.TN207.com</td><td>0</td><td/><td>363493875</td></row>
 		<row><td>ID_STRING2</td><td>1033</td><td>LAUNCH~1.EXE|Launch GUI.exe</td><td>0</td><td/><td>229271658</td></row>
+		<row><td>ID_STRING3</td><td>1033</td><td>LAUNCH~1.EXE|Launch GUI.exe</td><td>0</td><td/><td>363469523</td></row>
+		<row><td>ID_STRING4</td><td>1033</td><td>LAUNCH~1.EXE|Launch GUI.exe</td><td>0</td><td/><td>363479827</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>-743830063</td></row>
 	</table>
 
@@ -3963,12 +3983,13 @@
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
 		<row><td>GUI.exe1_98F50CFC635140DE854FF029E612BE55.exe</td><td/><td>D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\GUI\bin\Debug\GUI.exe</td><td>0</td></row>
 		<row><td>GUI.exe2_511F24BF95BA447D9641C228EDCAB8C8.exe</td><td/><td>D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\GUI\bin\Debug\GUI.exe</td><td>0</td></row>
-		<row><td>GUI.exe31_1A95CF3C69354789AA5A23B6F59F526F.exe</td><td/><td>D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\GUI\bin\Debug\GUI.exe</td><td>0</td></row>
-		<row><td>GUI.exe3_8B9E6536B4D5424CB35E3EA7D9B6DBF7.exe</td><td/><td>D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\GUI\bin\Debug\GUI.exe</td><td>0</td></row>
+		<row><td>GUI.exe41_28F442FC7A8440F892D9BDC9BB44BCC8.exe</td><td/><td>D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\GUI\bin\Debug\GUI.exe</td><td>0</td></row>
+		<row><td>GUI.exe4_2E04B593A8AC4002AD75835590E0246E.exe</td><td/><td>D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\GUI\bin\Debug\GUI.exe</td><td>0</td></row>
 		<row><td>GUI.exe_1F2828CA5CAE46C69FEEDA0B38E97A9C.exe</td><td/><td>D:\For store\DotNet\VSProject\ChuDe7_Nhom14_DuAn2\GUI\bin\Debug\GUI.exe</td><td>0</td></row>
 		<row><td>GUI.vshost.exe1_392D5686D52A45EB95EB9082E4337C4E.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>GUI.vshost.exe2_60610B98830043D4AC49C6263E94FF78.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>GUI.vshost.exe3_18F272DDEB854A418FE82D7F2B9C605D.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>GUI.vshost.exe4_B8CD170544AF4BD4A25D5595C0072232.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 		<row><td>GUI.vshost.exe_9A61A141844E4BF68EE5EC0FA53614F4.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 	</table>
 
@@ -4549,11 +4570,12 @@ UgBlAGwAZQBhAHMAZQABAEQAZQBmAGEAdQBsAHQAIABDAG8AbgBmAGkAZwB1AHIAYQB0AGkAbwBuAA==
 		<row><td>GUI.exe</td><td>GUI.exe</td><td/><td>ql_hog_1_ql_hogiadinh</td><td>2</td></row>
 		<row><td>GUI.exe1</td><td>GUI.exe1</td><td/><td>ql_hog_1_ql_hogiadinh</td><td>2</td></row>
 		<row><td>GUI.exe2</td><td>GUI.exe2</td><td/><td>ql_hog_1_ql_hogiadinh</td><td>2</td></row>
-		<row><td>GUI.exe3</td><td>GUI.exe3</td><td/><td>ql_hog_1_ql_hogiadinh</td><td>2</td></row>
+		<row><td>GUI.exe4</td><td>GUI.exe4</td><td/><td>ql_hog_1_ql_hogiadinh</td><td>2</td></row>
 		<row><td>GUI.vshost.exe</td><td>GUI.vshost.exe</td><td/><td>ql_hog_1_ql_hogiadinh</td><td>2</td></row>
 		<row><td>GUI.vshost.exe1</td><td>GUI.vshost.exe1</td><td/><td>ql_hog_1_ql_hogiadinh</td><td>2</td></row>
 		<row><td>GUI.vshost.exe2</td><td>GUI.vshost.exe2</td><td/><td>ql_hog_1_ql_hogiadinh</td><td>2</td></row>
 		<row><td>GUI.vshost.exe3</td><td>GUI.vshost.exe3</td><td/><td>ql_hog_1_ql_hogiadinh</td><td>2</td></row>
+		<row><td>GUI.vshost.exe4</td><td>GUI.vshost.exe4</td><td/><td>ql_hog_1_ql_hogiadinh</td><td>2</td></row>
 	</table>
 
 	<table name="RemoveIniFile">
@@ -4642,12 +4664,13 @@ UgBlAGwAZQBhAHMAZQABAEQAZQBmAGEAdQBsAHQAIABDAG8AbgBmAGkAZwB1AHIAYQB0AGkAbwBuAA==
 		<row><td>GUI.exe</td><td>ql_hog_1_ql_hogiadinh</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>GUI.exe</td><td>QL_HoGiaDinh_Files</td><td/><td/><td/><td>GUI.exe_1F2828CA5CAE46C69FEEDA0B38E97A9C.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
 		<row><td>GUI.exe1</td><td>ql_hog_1_ql_hogiadinh</td><td>##IDS_SHORTCUT_DISPLAY_NAME3##</td><td>GUI.exe1</td><td>QL_HoGiaDinh_Files</td><td/><td/><td/><td>GUI.exe1_98F50CFC635140DE854FF029E612BE55.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
 		<row><td>GUI.exe2</td><td>ql_hog_1_ql_hogiadinh</td><td>##IDS_SHORTCUT_DISPLAY_NAME5##</td><td>GUI.exe2</td><td>QL_HoGiaDinh_Files</td><td/><td/><td/><td>GUI.exe2_511F24BF95BA447D9641C228EDCAB8C8.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>GUI.exe3</td><td>ql_hog_1_ql_hogiadinh</td><td>##IDS_SHORTCUT_DISPLAY_NAME7##</td><td>GUI.exe3</td><td>QL_HoGiaDinh_Files</td><td/><td/><td/><td>GUI.exe3_8B9E6536B4D5424CB35E3EA7D9B6DBF7.exe</td><td>1</td><td>1</td><td>TN207</td><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>GUI.exe31</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME7##</td><td>GUI.exe3</td><td>QL_HoGiaDinh_Files</td><td/><td/><td/><td>GUI.exe31_1A95CF3C69354789AA5A23B6F59F526F.exe</td><td>1</td><td>1</td><td>TN207</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>GUI.exe4</td><td>ql_hog_1_ql_hogiadinh</td><td>##IDS_SHORTCUT_DISPLAY_NAME9##</td><td>GUI.exe4</td><td>QL_HoGiaDinh_Files</td><td/><td/><td/><td>GUI.exe4_2E04B593A8AC4002AD75835590E0246E.exe</td><td>1</td><td>1</td><td>TN207</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>GUI.exe41</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME9##</td><td>GUI.exe4</td><td>QL_HoGiaDinh_Files</td><td/><td/><td/><td>GUI.exe41_28F442FC7A8440F892D9BDC9BB44BCC8.exe</td><td>1</td><td>1</td><td>TN207</td><td/><td/><td/><td/><td/><td/><td/></row>
 		<row><td>GUI.vshost.exe</td><td>ql_hog_1_ql_hogiadinh</td><td>##IDS_SHORTCUT_DISPLAY_NAME2##</td><td>GUI.vshost.exe</td><td>QL_HoGiaDinh_Files</td><td/><td/><td/><td>GUI.vshost.exe_9A61A141844E4BF68EE5EC0FA53614F4.exe</td><td>0</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
 		<row><td>GUI.vshost.exe1</td><td>ql_hog_1_ql_hogiadinh</td><td>##IDS_SHORTCUT_DISPLAY_NAME4##</td><td>GUI.vshost.exe1</td><td>QL_HoGiaDinh_Files</td><td/><td/><td/><td>GUI.vshost.exe1_392D5686D52A45EB95EB9082E4337C4E.exe</td><td>0</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
 		<row><td>GUI.vshost.exe2</td><td>ql_hog_1_ql_hogiadinh</td><td>##IDS_SHORTCUT_DISPLAY_NAME6##</td><td>GUI.vshost.exe2</td><td>QL_HoGiaDinh_Files</td><td/><td/><td/><td>GUI.vshost.exe2_60610B98830043D4AC49C6263E94FF78.exe</td><td>0</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
 		<row><td>GUI.vshost.exe3</td><td>ql_hog_1_ql_hogiadinh</td><td>##IDS_SHORTCUT_DISPLAY_NAME8##</td><td>GUI.vshost.exe3</td><td>QL_HoGiaDinh_Files</td><td/><td/><td/><td>GUI.vshost.exe3_18F272DDEB854A418FE82D7F2B9C605D.exe</td><td>0</td><td>1</td><td>TN207</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>GUI.vshost.exe4</td><td>ql_hog_1_ql_hogiadinh</td><td>##IDS_SHORTCUT_DISPLAY_NAME10##</td><td>GUI.vshost.exe4</td><td>QL_HoGiaDinh_Files</td><td/><td/><td/><td>GUI.vshost.exe4_B8CD170544AF4BD4A25D5595C0072232.exe</td><td>0</td><td>1</td><td>TN207</td><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">

@@ -11,32 +11,22 @@ using BLL;
 
 namespace GUI
 {
-    public partial class frmHamlet : Form
+    public partial class frmJob : Form
     {
-        DataTable dtHamlet = new DataTable("KhomAp");
+        DataTable dtJob = new DataTable("NgheNghiep");
         DataCommunicate dc = new DataCommunicate();
         bool blnAdd = false;
 
         void DieuKhienBinhThuong() {
-            if (ObjectLoginValue.strPrivilege == "Admin")
-            {
-                btnThem.Enabled = true;
-                btnSua.Enabled = true;
-                btnXoa.Enabled = true;
-            }
-            else {
-                btnThem.Enabled = false;
-                btnXoa.Enabled = false;
-                btnSua.Enabled = false;
-            }
+            btnThem.Enabled = true;
+            btnSua.Enabled = true;
+            btnXoa.Enabled = true;
             btnLuu.Enabled = false;
             btnKhongLuu.Enabled = false;
             txtId.ReadOnly = true;
             txtName.ReadOnly = true;
-            txtGroup.ReadOnly = true;
-            txtDescribe.ReadOnly = true;
             btnClose.Enabled = true;
-            dgvHamlet.Enabled = true;
+            dgvJob.Enabled = true;
         }
 
         void DieuKhienThem() {
@@ -48,14 +38,10 @@ namespace GUI
             btnClose.Enabled = false;
             txtId.ReadOnly = false;
             txtName.ReadOnly = false;
-            txtGroup.ReadOnly = false;
-            txtDescribe.ReadOnly = false;
             txtId.Clear();
             txtName.Clear();
-            txtGroup.Clear();
-            txtDescribe.Clear();
             txtId.Focus();
-            dgvHamlet.Enabled = false;
+            dgvJob.Enabled = false;
         }
 
         void DieuKhienChinhSua() {
@@ -66,10 +52,8 @@ namespace GUI
             btnXoa.Enabled = false;
             btnClose.Enabled = false;
             txtName.ReadOnly = false;
-            txtGroup.ReadOnly = false;
-            txtDescribe.ReadOnly = false;
             txtName.Focus();
-            dgvHamlet.Enabled = false;
+            dgvJob.Enabled = false;
         }
 
         private void btnThem_Click(object sender, EventArgs e) {
@@ -84,67 +68,54 @@ namespace GUI
         private void ExecuteSave() {
             if (this.blnAdd == true)
             {
-                string[] data = new string[4];
+                string[] data = new string[2];
                 data[0] = txtId.Text;
                 data[1] = txtName.Text;
-                data[2] = txtGroup.Text;
-                data[3] = txtDescribe.Text;
-                dc.InsertData(data, "KhomAp");
-                this.dtHamlet.Rows.Add(data[0],data[1],data[2],data[3]);
+                dc.InsertData(data, "NgheNghiep");
+                this.dtJob.Rows.Add(data[0],data[1]);
                 this.GanDuLieu();
                 this.blnAdd = false;
             }
             else
             {
-                string[] fieldsData = new string[3];
-                fieldsData[0] = "TenAp";
-                fieldsData[1] = "SoTo";
-                fieldsData[2] = "DacDiem";
-                string[] data = new string[3];
+                string[] fieldsData = new string[1];
+                fieldsData[0] = "TenNgheNghiep";
+                string[] data = new string[1];
                 data[0] = txtName.Text;
-                data[1] = txtGroup.Text;
-                data[2] = txtDescribe.Text;
                 string[] fieldsPlace=new string[1];
-                fieldsPlace[0]="MaAp";
+                fieldsPlace[0] = "MaNgheNghiep";
                 string[] place=new string[1];
-                place[0]=txtId.Text;
-                dc.UpdateData(fieldsData, data, fieldsPlace, place, "KhomAp");
-                int curRow = dgvHamlet.CurrentRow.Index;
-                this.dtHamlet.Rows[curRow][0] = txtId.Text;
-                this.dtHamlet.Rows[curRow][1] = txtName.Text;
-                this.dtHamlet.Rows[curRow][2] = txtGroup.Text;
-                this.dtHamlet.Rows[curRow][3] = txtDescribe.Text;
+                place[0] = txtId.Text;
+                dc.UpdateData(fieldsData, data, fieldsPlace, place, "NgheNghiep");
+                int curRow = dgvJob.CurrentRow.Index;
+                this.dtJob.Rows[curRow][0] = txtId.Text;
+                this.dtJob.Rows[curRow][1] = txtName.Text;
             }
             this.DieuKhienBinhThuong();
         }
 
         private void btnLuu_Click(object sender, EventArgs e) {
-            int group;
             string[] data = new string[1];
             string[] fields = new string[1];
             if (txtId.Text == "") {
-                MessageBox.Show("Lỗi chưa nhập mã ấp!");
+                MessageBox.Show("Lỗi chưa nhập mã nghề nghiệp!");
                 txtId.Focus();
                 return;
             }
             if (txtName.Text == "")
             {
-                MessageBox.Show("Lỗi chưa nhập tên ấp!");
+                MessageBox.Show("Lỗi chưa nhập tên nghề nghiệp!");
                 txtName.Focus();
                 return;
             }
-            if ((!int.TryParse(txtGroup.Text, out group)) || group <= 0) {
-                MessageBox.Show("Lỗi nhập số tổ!");
-                txtGroup.Focus();
-                return;
-            }
             data[0]=txtId.Text;
-            fields[0]="MaAp";
-            if ((blnAdd)&&this.dc.IsExisted(fields, data, "KhomAp"))
+            fields[0]="MaNgheNghiep";
+            if ((blnAdd)&&this.dc.IsExisted(fields, data, "NgheNghiep"))
             {
-                MessageBox.Show("Mã ấp này đã có rồi!");
+                MessageBox.Show("Mã nghề này đã có rồi!");
                 txtId.Clear();
                 txtId.Focus();
+                return;
             }
             else {
                 this.ExecuteSave();
@@ -161,17 +132,17 @@ namespace GUI
             string[] data = new string[1];
             data[0] = txtId.Text;
             string[] fields = new string[1];
-            fields[0] = "MaAp";
-            if (this.dc.IsExisted(fields,data,"HoGiaDinh"))
+            fields[0] = "MaNgheNghiep";
+            if (this.dc.IsExisted(fields,data,"ThanhVien"))
             {
-                MessageBox.Show("Khóm ấp này còn có các hộ gia đình, hãy cân nhắc xóa các hộ trước!");
+                MessageBox.Show("Nghề này vẫn còn người làm!");
             }
             else {
                 DialogResult dlDongY;
                 dlDongY = MessageBox.Show("Bạn thật sự muốn xóa?", "Xác nhận", MessageBoxButtons.YesNo);
                 if (dlDongY == DialogResult.Yes) {
-                    this.dc.DeleteData(fields, data, "KhomAp");
-                    this.dtHamlet.Rows.RemoveAt(dgvHamlet.CurrentRow.Index);
+                    this.dc.DeleteData(fields, data, "NgheNghiep");
+                    this.dtJob.Rows.RemoveAt(dgvJob.CurrentRow.Index);
                     this.GanDuLieu();
                     MessageBox.Show("Xóa thành công!");
                 }
@@ -184,12 +155,10 @@ namespace GUI
         }
 
         private void GanDuLieu() {
-            if (this.dtHamlet.Rows.Count > 0)
+            if (this.dtJob.Rows.Count > 0)
             {
-                txtId.Text = dgvHamlet[0, dgvHamlet.CurrentRow.Index].Value.ToString();
-                txtName.Text = dgvHamlet[1, dgvHamlet.CurrentRow.Index].Value.ToString();
-                txtGroup.Text = dgvHamlet[2, dgvHamlet.CurrentRow.Index].Value.ToString();
-                txtDescribe.Text = dgvHamlet[3, dgvHamlet.CurrentRow.Index].Value.ToString();
+                txtId.Text = dgvJob[0, dgvJob.CurrentRow.Index].Value.ToString();
+                txtName.Text = dgvJob[1, dgvJob.CurrentRow.Index].Value.ToString();
             }
             else
             {
@@ -197,35 +166,29 @@ namespace GUI
                 btnXoa.Enabled = false;
                 txtId.Clear();
                 txtName.Clear();
-                txtGroup.Clear();
-                txtDescribe.Clear();
             }
         }
 
-        public frmHamlet()
+        public frmJob()
         {
             InitializeComponent();
         }
 
-        private void frmHamlet_Load(object sender, EventArgs e)
+        private void frmJob_Load(object sender, EventArgs e)
         {
-            this.dc.GetDataSource("KhomAp", this.dtHamlet);
-            dgvHamlet.DataSource = this.dtHamlet;
+            this.dc.GetDataSource("NgheNghiep", this.dtJob);
+            dgvJob.DataSource = this.dtJob;
             txtId.MaxLength = 8;
             txtName.MaxLength = 40;
             this.GanDuLieu();
-            dgvHamlet.Width = 460;
-            dgvHamlet.Columns[0].Width = 80;
-            dgvHamlet.Columns[0].HeaderText = "Mã ấp";
-            dgvHamlet.Columns[1].Width = 120;
-            dgvHamlet.Columns[1].HeaderText = "Tên ấp";
-            dgvHamlet.Columns[2].Width = 80;
-            dgvHamlet.Columns[2].HeaderText = "Số tổ";
-            dgvHamlet.Columns[3].Width = 120;
-            dgvHamlet.Columns[3].HeaderText = "Đặc điểm";
-            dgvHamlet.AllowUserToAddRows = false;
-            dgvHamlet.AllowUserToDeleteRows = false;
-            dgvHamlet.EditMode = DataGridViewEditMode.EditProgrammatically;
+            dgvJob.Width = 290;
+            dgvJob.Columns[0].Width = 70;
+            dgvJob.Columns[0].HeaderText = "Stt";
+            dgvJob.Columns[1].Width = 160;
+            dgvJob.Columns[1].HeaderText = "Nghề";
+            dgvJob.AllowUserToAddRows = false;
+            dgvJob.AllowUserToDeleteRows = false;
+            dgvJob.EditMode = DataGridViewEditMode.EditProgrammatically;
             this.DieuKhienBinhThuong();
         }
 

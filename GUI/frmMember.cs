@@ -88,8 +88,7 @@ namespace GUI
             btnKhongLuu.Enabled = true;
             btnXoa.Enabled = false;
             btnClose.Enabled = false;
-            cbFamilies.Enabled = true;
-            txtIndex.ReadOnly = false;
+            cbFamilies.Enabled = false;
             txtName.ReadOnly = false;
             grpSex.Enabled = true;
             dtpDateBirth.Enabled = true;
@@ -114,13 +113,23 @@ namespace GUI
             if (this.blnThem == true)
             {
                 string[] fields = new string[2];
+                string[] data = new string[2];
+                int index;
+                if ((txtIndex.Text == "") || !int.TryParse(txtIndex.Text, out index))
+                {
+                    MessageBox.Show("Lỗi nhập số thứ tự thành viên!");
+                    txtIndex.Focus();
+                    return;
+                }
                 fields[0] = "MaHo";
                 fields[1] = "SttThanhVien";
-                string[] data = new string[2];
                 data[0] = cbFamilies.SelectedValue.ToString();
                 data[1] = txtIndex.Text;
-                if (dc.IsExisted(fields, data, "ThanhVien")) {
-                    MessageBox.Show("Thành viên này đã tồn tại!");
+                if (dc.IsExisted(fields, data, "ThanhVien"))
+                {
+                    MessageBox.Show("Ở hộ này đã có stt thành viên này rồi!", "Thông báo");
+                    txtIndex.Clear();
+                    txtIndex.Focus();
                     return;
                 }
                 data = new string[11];
@@ -138,7 +147,8 @@ namespace GUI
                 data[8] = cbInstance.SelectedValue.ToString();
                 data[9] = ObjectLoginValue.EncodePass(data[1]);
                 data[10] = cbPrivilege.SelectedValue.ToString();
-                dc.InsertData(data, "ThanhVien");
+                this.dc.InsertData(data, "ThanhVien");
+                if (data[8] == "null") data[8] = "";
                 if (data[3] == "1") data[3] = "true";
                 else data[3] = "false";
                 this.dtMember.Rows.Add(data[0], data[1],
@@ -187,6 +197,7 @@ namespace GUI
                 this.dtMember.Rows[curRow][0] = data[9];
                 this.dtMember.Rows[curRow][1] = data[0];
                 this.dtMember.Rows[curRow][2] = data[1];
+                if (data[7] == "null") data[7] = "";
                 if (data[2] == "1") data[2] = "true";
                 else data[2] = "false";
                 this.dtMember.Rows[curRow][3] = Boolean.Parse(data[2]);
@@ -202,18 +213,14 @@ namespace GUI
         }
 
         private void btnLuu_Click(object sender, EventArgs e) {
+            
             if (cbFamilies.SelectedIndex == -1)
             {
                 MessageBox.Show("Lỗi chưa chọn mã hộ!");
                 cbFamilies.Focus();
                 return;
             }
-            if (txtIndex.Text == "")
-            {
-                MessageBox.Show("Lỗi chưa nhập số thứ tự thành viên!");
-                txtIndex.Focus();
-                return;
-            }
+            
             if (txtName.Text == "") {
                 MessageBox.Show("Lỗi chưa nhập họ tên!");
                 txtName.Focus();
@@ -312,7 +319,7 @@ namespace GUI
             InitializeComponent();
         }
 
-        private void frmMon_Load(object sender, EventArgs e)
+        private void frmMember_Load(object sender, EventArgs e)
         {
             dc.GetDataSource("ThanhVien", this.dtMember);
             dc.GetDataSource("HoGiaDinh", this.dtFamilies);

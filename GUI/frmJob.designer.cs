@@ -1,6 +1,6 @@
 ﻿namespace GUI
 {
-    partial class frmHamlet
+    partial class frmJob
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmHamlet));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInstance));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -40,12 +40,8 @@
             this.btnKhongLuu = new System.Windows.Forms.Button();
             this.btnLuu = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
-            this.dgvHamlet = new System.Windows.Forms.DataGridView();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtGroup = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtDescribe = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvHamlet)).BeginInit();
+            this.dgvJob = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvJob)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -53,53 +49,53 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.LimeGreen;
-            this.label1.Location = new System.Drawing.Point(211, 9);
+            this.label1.Location = new System.Drawing.Point(122, 10);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 16);
+            this.label1.Size = new System.Drawing.Size(96, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Khóm ấp";
+            this.label1.Text = "Nghề nghiệp";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label2.Location = new System.Drawing.Point(109, 48);
+            this.label2.Location = new System.Drawing.Point(30, 49);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 13);
+            this.label2.Size = new System.Drawing.Size(60, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Mã ấp";
+            this.label2.Text = "Mã nghề:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label4.Location = new System.Drawing.Point(109, 82);
+            this.label4.Location = new System.Drawing.Point(30, 83);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 13);
+            this.label4.Size = new System.Drawing.Size(83, 13);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Tên ấp:";
+            this.label4.Text = "Nghề nghiệp:";
             // 
             // txtId
             // 
-            this.txtId.Location = new System.Drawing.Point(194, 41);
+            this.txtId.Location = new System.Drawing.Point(139, 42);
             this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(212, 20);
+            this.txtId.Size = new System.Drawing.Size(171, 20);
             this.txtId.TabIndex = 4;
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(194, 75);
+            this.txtName.Location = new System.Drawing.Point(139, 76);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(212, 20);
+            this.txtName.Size = new System.Drawing.Size(171, 20);
             this.txtName.TabIndex = 5;
             // 
             // btnThem
             // 
             this.btnThem.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnThem.Location = new System.Drawing.Point(83, 389);
+            this.btnThem.Location = new System.Drawing.Point(16, 300);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(64, 24);
             this.btnThem.TabIndex = 12;
@@ -111,7 +107,7 @@
             // 
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnClose.Location = new System.Drawing.Point(246, 418);
+            this.btnClose.Location = new System.Drawing.Point(179, 329);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(64, 24);
             this.btnClose.TabIndex = 13;
@@ -123,7 +119,7 @@
             // 
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnXoa.Location = new System.Drawing.Point(177, 418);
+            this.btnXoa.Location = new System.Drawing.Point(110, 329);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(64, 24);
             this.btnXoa.TabIndex = 14;
@@ -135,7 +131,7 @@
             // 
             this.btnKhongLuu.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnKhongLuu.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnKhongLuu.Location = new System.Drawing.Point(316, 389);
+            this.btnKhongLuu.Location = new System.Drawing.Point(249, 300);
             this.btnKhongLuu.Name = "btnKhongLuu";
             this.btnKhongLuu.Size = new System.Drawing.Size(79, 24);
             this.btnKhongLuu.TabIndex = 15;
@@ -147,7 +143,7 @@
             // 
             this.btnLuu.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuu.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnLuu.Location = new System.Drawing.Point(246, 389);
+            this.btnLuu.Location = new System.Drawing.Point(179, 300);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(64, 24);
             this.btnLuu.TabIndex = 16;
@@ -159,7 +155,7 @@
             // 
             this.btnSua.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnSua.Location = new System.Drawing.Point(153, 389);
+            this.btnSua.Location = new System.Drawing.Point(86, 300);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(87, 24);
             this.btnSua.TabIndex = 17;
@@ -167,61 +163,23 @@
             this.btnSua.UseVisualStyleBackColor = true;
             this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
-            // dgvHamlet
+            // dgvJob
             // 
-            this.dgvHamlet.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvHamlet.Location = new System.Drawing.Point(12, 204);
-            this.dgvHamlet.Name = "dgvHamlet";
-            this.dgvHamlet.Size = new System.Drawing.Size(466, 157);
-            this.dgvHamlet.TabIndex = 18;
-            this.dgvHamlet.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLop_CellClick);
+            this.dgvJob.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvJob.Location = new System.Drawing.Point(23, 122);
+            this.dgvJob.Name = "dgvJob";
+            this.dgvJob.Size = new System.Drawing.Size(294, 157);
+            this.dgvJob.TabIndex = 18;
+            this.dgvJob.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLop_CellClick);
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label3.Location = new System.Drawing.Point(109, 116);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Số tổ:";
-            // 
-            // txtGroup
-            // 
-            this.txtGroup.Location = new System.Drawing.Point(194, 109);
-            this.txtGroup.Name = "txtGroup";
-            this.txtGroup.Size = new System.Drawing.Size(212, 20);
-            this.txtGroup.TabIndex = 6;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label5.Location = new System.Drawing.Point(109, 152);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(57, 13);
-            this.label5.TabIndex = 19;
-            this.label5.Text = "Diễn giải";
-            // 
-            // txtDescribe
-            // 
-            this.txtDescribe.Location = new System.Drawing.Point(194, 145);
-            this.txtDescribe.Name = "txtDescribe";
-            this.txtDescribe.Size = new System.Drawing.Size(212, 20);
-            this.txtDescribe.TabIndex = 20;
-            // 
-            // frmHamlet
+            // frmJob
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(490, 462);
+            this.ClientSize = new System.Drawing.Size(343, 384);
             this.ControlBox = false;
-            this.Controls.Add(this.txtDescribe);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.dgvHamlet);
+            this.Controls.Add(this.dgvJob);
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.btnKhongLuu);
@@ -229,18 +187,16 @@
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.txtName);
-            this.Controls.Add(this.txtGroup);
             this.Controls.Add(this.txtId);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "frmHamlet";
+            this.Name = "frmJob";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Khóm ấp";
-            this.Load += new System.EventHandler(this.frmHamlet_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvHamlet)).EndInit();
+            this.Text = "Nghề nghiệp";
+            this.Load += new System.EventHandler(this.frmJob_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvJob)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -259,10 +215,6 @@
         private System.Windows.Forms.Button btnKhongLuu;
         private System.Windows.Forms.Button btnLuu;
         private System.Windows.Forms.Button btnSua;
-        private System.Windows.Forms.DataGridView dgvHamlet;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtGroup;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtDescribe;
+        private System.Windows.Forms.DataGridView dgvJob;
     }
 }

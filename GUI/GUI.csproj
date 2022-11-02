@@ -62,6 +62,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmInstance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInstance.designer.cs">
+      <DependentUpon>frmInstance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLevel.designer.cs">
+      <DependentUpon>frmLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJob.designer.cs">
+      <DependentUpon>frmJob.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMember.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +118,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmInstance.resx">
+      <DependentUpon>frmInstance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLevel.resx">
+      <DependentUpon>frmLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJob.resx">
+      <DependentUpon>frmJob.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMember.resx">
       <DependentUpon>frmMember.cs</DependentUpon>
     </EmbeddedResource>

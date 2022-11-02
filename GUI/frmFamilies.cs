@@ -185,7 +185,7 @@ namespace GUI
             InitializeComponent();
         }
 
-        private void frmMon_Load(object sender, EventArgs e)
+        private void frmFamilies_Load(object sender, EventArgs e)
         {
             dc.GetDataSource("HoGiaDinh", this.dtFamilies);
             dc.GetDataSource("KhomAp", this.dtHamlet);

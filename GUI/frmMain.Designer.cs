@@ -34,6 +34,10 @@
             this.mnuHamlet = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuFamilies = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuMember = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuSocial = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuJob = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuLevel = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuInstance = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuAdmin = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuLogin = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuLogout = new System.Windows.Forms.ToolStripMenuItem();
@@ -61,7 +65,8 @@
             this.mnuManager.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuHamlet,
             this.mnuFamilies,
-            this.mnuMember});
+            this.mnuMember,
+            this.mnuSocial});
             this.mnuManager.Name = "mnuManager";
             this.mnuManager.Size = new System.Drawing.Size(60, 20);
             this.mnuManager.Text = "Quản lý";
@@ -69,23 +74,54 @@
             // mnuHamlet
             // 
             this.mnuHamlet.Name = "mnuHamlet";
-            this.mnuHamlet.Size = new System.Drawing.Size(174, 22);
+            this.mnuHamlet.Size = new System.Drawing.Size(187, 22);
             this.mnuHamlet.Text = "Quản lý khóm ấp";
             this.mnuHamlet.Click += new System.EventHandler(this.frmHamlet_Click);
             // 
             // mnuFamilies
             // 
             this.mnuFamilies.Name = "mnuFamilies";
-            this.mnuFamilies.Size = new System.Drawing.Size(174, 22);
+            this.mnuFamilies.Size = new System.Drawing.Size(187, 22);
             this.mnuFamilies.Text = "Quản lý hộ";
             this.mnuFamilies.Click += new System.EventHandler(this.frmFamilies_Click);
             // 
             // mnuMember
             // 
             this.mnuMember.Name = "mnuMember";
-            this.mnuMember.Size = new System.Drawing.Size(174, 22);
+            this.mnuMember.Size = new System.Drawing.Size(187, 22);
             this.mnuMember.Text = "Quản lý thành viên";
             this.mnuMember.Click += new System.EventHandler(this.frmMember_Click);
+            // 
+            // mnuSocial
+            // 
+            this.mnuSocial.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mnuJob,
+            this.mnuLevel,
+            this.mnuInstance});
+            this.mnuSocial.Name = "mnuSocial";
+            this.mnuSocial.Size = new System.Drawing.Size(187, 22);
+            this.mnuSocial.Text = "Quản lý vấn đề xã hội";
+            // 
+            // mnuJob
+            // 
+            this.mnuJob.Name = "mnuJob";
+            this.mnuJob.Size = new System.Drawing.Size(152, 22);
+            this.mnuJob.Text = "Nghề nghiệp";
+            this.mnuJob.Click += new System.EventHandler(this.frmJob_Click);
+            // 
+            // mnuLevel
+            // 
+            this.mnuLevel.Name = "mnuLevel";
+            this.mnuLevel.Size = new System.Drawing.Size(152, 22);
+            this.mnuLevel.Text = "Trình độ";
+            this.mnuLevel.Click += new System.EventHandler(this.frmLevel_Click);
+            // 
+            // mnuInstance
+            // 
+            this.mnuInstance.Name = "mnuInstance";
+            this.mnuInstance.Size = new System.Drawing.Size(152, 22);
+            this.mnuInstance.Text = "Đối tượng";
+            this.mnuInstance.Click += new System.EventHandler(this.frmInstance_Click);
             // 
             // mnuAdmin
             // 
@@ -177,6 +213,10 @@
         public System.Windows.Forms.ToolStripMenuItem mnuHamlet;
         public System.Windows.Forms.ToolStripMenuItem mnuFamilies;
         public System.Windows.Forms.ToolStripMenuItem mnuMember;
+        public System.Windows.Forms.ToolStripMenuItem mnuSocial;
+        public System.Windows.Forms.ToolStripMenuItem mnuJob;
+        public System.Windows.Forms.ToolStripMenuItem mnuLevel;
+        public System.Windows.Forms.ToolStripMenuItem mnuInstance;
 
     }
 }

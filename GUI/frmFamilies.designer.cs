@@ -222,7 +222,7 @@
             this.Name = "frmFamilies";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thông tin hộ gia đình";
-            this.Load += new System.EventHandler(this.frmMon_Load);
+            this.Load += new System.EventHandler(this.frmFamilies_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvFamilies)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

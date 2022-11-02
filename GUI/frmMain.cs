@@ -41,6 +41,21 @@ namespace GUI
             form.ShowDialog();
         }
 
+        private void frmJob_Click(object sender, EventArgs e) {
+            frmJob form = new frmJob();
+            form.ShowDialog();
+        }
+
+        private void frmLevel_Click(object sender, EventArgs e) {
+            frmLevel form = new frmLevel();
+            form.ShowDialog();
+        }
+
+        private void frmInstance_Click(object sender, EventArgs e) {
+            frmInstance form = new frmInstance();
+            form.ShowDialog();
+        }
+
         private void frmLogin_Click(object sender, EventArgs e) {
             frmLogin form = new frmLogin(this);
             form.ShowDialog();

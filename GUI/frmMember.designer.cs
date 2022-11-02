@@ -406,7 +406,7 @@
             this.Name = "frmMember";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thông tin thành viên";
-            this.Load += new System.EventHandler(this.frmMon_Load);
+            this.Load += new System.EventHandler(this.frmMember_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMember)).EndInit();
             this.grpSex.ResumeLayout(false);
             this.grpSex.PerformLayout();
